@@ -1,4 +1,5 @@
 sudo: required
+language: generic
 services:
   - docker
 
@@ -15,4 +16,4 @@ after_success:
   - docker push -t matthewtyas/multi-client
   - docker push -t matthewtyas/multi-nginx
   - docker push -t matthewtyas/multi-server
-  - docker push -t matthewtyas/multi-worker
+  - docker push -t matthewtyas/multi-client
