@@ -16,4 +16,4 @@ after_success:
   - docker push matthewtyas/multi-client
   - docker push matthewtyas/multi-nginx
   - docker push matthewtyas/multi-server
-  - docker push matthewtyas/multi-client
+  - docker push matthewtyas/multi-worker
